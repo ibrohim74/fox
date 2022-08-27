@@ -1,0 +1,420 @@
+/* responsive web design */
+@media (min-width:993px) and (max-width:1200px){
+    .about-info{
+    top: 35%;
+    left: 61.5%;
+    transform: rotate(337deg);
+}
+.about-mal{
+    margin-top: 40px;
+}
+.t-footer{
+    height: 15%;
+}
+.t-title h1{
+    margin-top: 10px;
+}
+.t-icons a{
+    font-size: 24px;
+}
+.inputs{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.db-input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+}
+
+/* responsive design for larger tablets */
+@media (min-width: 769px) and (max-width: 992px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .input-main input{
+        width: 300px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    #lastScBtn{
+        margin-left: 33%;
+    }
+    .mini-footer-content h1{
+        font-size: 25px;
+    }
+    .t-card{
+        height: 70vh;
+    }
+    .t-footer h1{
+        font-size: 20px;
+    }
+    .t-footer h2{
+        font-size: 18px;
+    }
+    .t-icons a {
+        font-size: 20px;
+        margin-left: 6px;
+    }
+    .db-card{
+        margin-bottom: 40px;
+    }
+    .card-top :nth-child(1){
+        width: 50px;
+        height: 60px;
+    }
+    .card-top :nth-child(2){
+        width: 60px;
+        height: 60px;
+    }
+    .nd-section{
+        text-align: center;
+    }
+    .logo {
+        width: 44px;
+        height: 48px;
+    }
+    .hide-menu a{
+        font-size: 25px;
+        left: 12%;
+    }
+    .footer-contents{
+        flex-direction: column;
+        text-align: center;
+    }
+    .mini-footer-content{
+        margin-top: 15px;
+    }
+    .footer-links a{
+        font-size: 16px;
+    }
+    .footer-links{
+        padding-bottom: 30px;
+    }
+    .about-info{
+        padding: 15px;
+        transform: rotate(335deg);
+        top: 33%;
+        left: 64.3%;
+    }
+    .about-info h3{
+        font-size: 14px;
+    }
+    
+    }
+
+
+/* responsive design for teablets */
+@media (min-width: 579px) and (max-width: 768px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+        align-items: center;
+    }
+    .db-input{
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input :first-child{
+        margin-bottom: 20px;
+    }
+    .input-main input{
+        width: 300px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    .classic-btn{
+        padding: 10px 15px;
+        font-size: 10px;
+    }    
+    .classic-btn ion-icon {
+    font-size: 20px;
+}
+#lastBtn{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    left: 39% !important;
+    margin-top: 30px;
+}
+.logo {
+    width: 44px;
+    height: 48px;
+}
+.hide-menu a{
+    font-size: 25px;
+    left: 12%;
+}
+.footer-menu span h2{
+    font-size: 20px;
+}
+.normal-title{
+    font-size: 30px;
+}.last-section{
+    text-align: center;
+}
+.last-title h1{
+    margin-bottom: 0;
+}
+#lastNdTitle {
+    margin-top: 15px;
+}
+.footer-contents{
+    flex-direction: column;
+    text-align: center;
+}
+.mini-footer-content{
+    margin-top: 15px;
+}
+.footer-links a{
+    font-size: 16px;
+}
+.footer-links{
+    padding-bottom: 30px;
+}
+.db-card{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.t-card{
+    width: 100%;
+    margin-top: 30px;
+}
+.t-title h1{
+    font-size: 25px;
+}
+.big-card h1{
+    font-size: 35px;
+}
+.about-div img{
+    width: 177px;
+}
+.about-info{
+    padding: 10px;
+    border-radius: 5px;
+    transform: rotate(336deg);
+    top: 39%;
+    left: 64.3%;
+}
+.about-div h1{
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.about-info h3{
+    font-size: 13px;
+}
+.st-section{
+    text-align: center;
+}
+.about-mal{
+    margin-top: 10px;
+}
+.t-icons a{
+    font-size: 25px;
+}
+.t-title h2{
+    font-size: 20px;
+}
+}
+/* responsive design for phones */
+@media screen and (max-width: 578px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+        align-items: center;
+    }
+    .db-input{
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input :first-child{
+        margin-bottom: 20px;
+    }
+    .input-main input{
+        width: 100%;
+        height: 50px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    .about-title{
+        margin-top: 25px;
+    }
+    .normal-title{
+        font-size: 20px;
+    }
+    .about-title h1 {
+        margin-bottom: 5px;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-title h2{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .classic-btn{
+        padding: 8px 10px;
+        font-size: 8px;
+    }    
+ 
+    .classic-btn ion-icon {
+    font-size: 15px;
+}
+#lastBtn{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 34%;
+    margin-top: 30px;
+}
+.logo {
+    width: 26px;
+    height: 34px;
+}
+.hide-menu a{
+    font-size: 17px;
+    left: 4%;
+}
+.footer-menu span h2{
+    font-size: 12px;
+}
+.normal-title{
+    font-size: 30px;
+}.last-section{
+    text-align: center;
+}
+.last-title h1{
+    margin-bottom: 0;
+}
+.last-title h2{
+    font-size: 13px;
+}
+#lastNdTitle {
+    margin-top: 15px;
+}
+.footer-contents{
+    flex-direction: column;
+    text-align: center;
+}
+.footer-contents img{
+    width: 40px;
+}
+
+.mini-footer-content{
+    margin-top: 15px;
+}
+.mini-footer-content h1{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.hamburger{
+    width: 20px;
+}
+.hamburger::before,
+.hamburger::after{
+    width: 20px;
+}
+.mini-footer-content h2{
+    font-size: 18px;
+}
+.footer-links a{
+    font-size: 9px;
+}
+.footer-links{
+    padding-bottom: 20px;
+}
+.footer-last h2{
+    font-size: 9px;
+}
+.footer-icons a{
+    font-size: 20px;
+    margin-right: 2px;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.db-card{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.t-card{
+    width: 100%;
+    margin-top: 30px;
+    height: 60vh;
+}
+.t-title h1{
+    font-size: 25px;
+}
+.big-card h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.big-card h2{
+    font-size: 25px;
+}
+.about-div img{
+    width: 177px;
+}
+.about-info{
+    padding: 10px;
+    border-radius: 5px;
+    transform: rotate(0);
+    position: static;
+}
+.about-div h1{
+    font-size: 40px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+}
+.about-info h3{
+    font-size: 13px;
+}
+.st-section{
+    text-align: center;
+    padding-top: 100px;
+}
+.classic-content{
+    font-size: 18px;
+}
+.mini-title{
+    font-size: 20px;
+}
+.about-mal{
+    margin-top: 10px;
+}
+.t-icons a{
+    font-size: 15px;
+}
+.t-title h2{
+    font-size: 15px;
+}
+.big-img img{
+    width: 100%;
+}
+.big-img{
+    padding: 0 30px;
+}
+}

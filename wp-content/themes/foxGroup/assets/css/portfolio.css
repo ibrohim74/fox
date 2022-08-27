@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600;700;800&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text-header-portfolio{
+    color: #EA5B21;
+    font-size: 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text-header-portfolio h1:nth-child(2){
+    color: black;
+    font-size: 36px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+.info-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.info-item{
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+.info-item-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80px ;
+    height: 80px;
+    border-radius: 50%;
+    background: #EA5B21;
+    font-size: 45px;
+    color: white;
+}
+.info-item-text{
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.xizmat{
+
+    width: 100%;
+    margin-top: 120px;
+}
+.xizmat-text{
+    margin-left: 0;
+    margin-bottom: 60px;
+    font-size: 48px;
+    font-weight: 700;
+}
+.xizmat-boxes{
+
+    /*flex-wrap: wrap;*/
+    width: 100%;
+}
+.xizmat-box-item{
+    width: 450px;
+    margin-right: 10px;
+}
+.xizmat1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+.xizmat2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.xizmat-box-img img{
+    width: 100%;
+}
+.xizmat-box-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    width: 100%;
+}
+.portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.st-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.st-db{
+    width: 57.8%;
+    display: flex;
+    flex-direction: column;
+}
+.st-db img{
+    width: 100%;
+}
+.st-db :first-child{
+    margin-bottom: 20px;
+}
+.st-one{
+    width: 40.7%;
+}
+.st-one img{
+    width: 100%;
+}
+
+.nd-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.nd-st{
+    width: 33.8%;
+}
+.nd-st img{
+    width: 100%;
+}
+.nd-nd{
+    width: 64.7%;
+}
+.nd-nd img{
+    width: 100%;
+}
+
+.rd-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.rd-st{
+    width: 58.8%;
+}
+.rd-st img{
+    width: 100%;
+}
+.rd-nd{
+    width: 39.7%;
+}
+.rd-nd img{
+    width: 100%;
+}
+
+.th-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.th-st{
+    width: 40.7%;
+}
+.th-st img{
+    width: 100%;
+}
+.th-db{
+    width: 57.7%;
+    display: flex;
+    flex-direction: column;
+}
+.th-db img{
+    width: 100%;
+}
+.th-db :first-child{
+    margin-bottom: 6px;
+}
+.port-btn{
+    margin-left: 40%;
+    margin-top: 80px;
+}
+.port-btn button h1{
+    font-size: 16px;
+    font-weight: 800;
+}
+.port-btn button{
+    background: #EDEDED;
+    color: black;
+}
+.port-btn button:hover{
+    background: #EA5B21;
+    color: white !important;
+    border: #EA5B21 1px solid;
+}

@@ -1,0 +1,321 @@
+/* responsive web design */
+@media (min-width:993px) and (max-width:1200px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+/* responsive design for larger tablets */
+@media (min-width: 769px) and (max-width: 992px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .input-main input{
+        width: 300px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    #lastScBtn{
+        margin-left: 33%;
+    }
+    .mini-footer-content h1{
+        font-size: 25px;
+    }
+    .mini-footer-content h2{
+        font-size: 20px;
+    }
+    .st-db :first-child {
+        margin-bottom: 10px;
+    }
+    .th-db :first-child {
+        margin-bottom: 10px;
+    }
+    .rd-content{
+        margin-bottom: 10px;
+    }
+    .nd-content{
+        margin-bottom: 10px;
+    }
+    .st-content{
+        margin-bottom: 10px;
+    }
+}
+
+/* responsive design for teablets */
+@media (min-width: 579px) and (max-width: 768px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+        align-items: center;
+    }
+    .db-input{
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input :first-child{
+        margin-bottom: 20px;
+    }
+    .input-main input{
+        width: 300px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    .about-title{
+        margin-top: 25px;
+    }
+    .normal-title{
+        font-size: 30px;
+    }
+    .about-title h1 {
+        margin-bottom: 5px;
+    }
+    .about-title h2{
+        font-size: 13px;
+    }
+    .classic-btn{
+        padding: 10px 15px;
+        font-size: 10px;
+    }    
+    .classic-btn ion-icon {
+    font-size: 20px;
+}
+#lastBtn{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    left: 39% !important;
+    margin-top: 30px;
+}
+.logo {
+    width: 44px;
+    height: 48px;
+}
+.hide-menu a{
+    font-size: 25px;
+    left: 12%;
+}
+.footer-menu span h2{
+    font-size: 20px;
+}
+.st-db :first-child {
+    margin-bottom: 8px;
+}
+.th-db :first-child {
+    margin-bottom: 8px;
+}
+.rd-content{
+    margin-bottom: 8px;
+}
+.nd-content{
+    margin-bottom: 8px;
+}
+.st-content{
+    margin-bottom: 8px;
+}
+.portfolio{
+    margin-top: 25px;
+}
+.port-btn {
+    margin-left: 29%;
+    margin-top: 37px;
+}
+.port-btn button h1 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.last-section{
+    text-align: center;
+}
+.last-title h1{
+    margin-bottom: 0;
+}
+#lastNdTitle {
+    margin-top: 15px;
+}
+.footer-contents{
+    flex-direction: column;
+    text-align: center;
+}
+.mini-footer-content{
+    margin-top: 15px;
+}
+.footer-links a{
+    font-size: 16px;
+}
+.footer-links{
+    padding-bottom: 30px;
+}
+}
+/* responsive design for phones */
+@media screen and (max-width: 578px){
+    .inputs{
+        flex-direction: column;
+        width: 100%;
+        margin-top: 25px;
+        align-items: center;
+    }
+    .db-input{
+        flex-direction: column;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
+    .db-input :first-child{
+        margin-bottom: 20px;
+    }
+    .input-main input{
+        width: 100%;
+        height: 50px;
+    }
+    .input-main h1{
+        font-size: 20px;
+    }
+    .about-title{
+        margin-top: 25px;
+    }
+    .normal-title{
+        font-size: 20px;
+    }
+    .about-title h1 {
+        margin-bottom: 5px;
+    }
+    .about-title{
+        text-align: center;
+    }
+    .about-title h2{
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+    .classic-btn{
+        padding: 8px 10px;
+        font-size: 8px;
+    }    
+ 
+    .classic-btn ion-icon {
+    font-size: 15px;
+}
+#lastBtn{
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: 600;
+    left: 39% !important;
+    margin-top: 30px;
+}
+.logo {
+    width: 26px;
+    height: 34px;
+}
+.splide__arrow{
+    height: 1em;
+    width: 1em;
+}
+.hide-menu a{
+    font-size: 17px;
+    left: 4%;
+}
+.footer-menu span h2{
+    font-size: 12px;
+}
+.st-db :first-child {
+    margin-bottom: 5px;
+}
+.th-db :first-child {
+    margin-bottom: 4px;
+}
+.rd-content{
+    margin-bottom: 4px;
+}
+.nd-content{
+    margin-bottom: 4px;
+}
+.st-content{
+    margin-bottom: 4px;
+}
+.portfolio{
+    margin-top: 25px;
+}
+.port-btn {
+    margin-left: 29%;
+    margin-top: 20px;
+}
+.port-btn button h1 {
+    font-size: 8px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.last-section{
+    text-align: center;
+}
+.last-title h1{
+    margin-bottom: 0;
+}
+.last-title h2{
+    font-size: 13px;
+}
+#lastNdTitle {
+    margin-top: 15px;
+}
+.footer-contents{
+    flex-direction: column;
+    text-align: center;
+}
+.footer-contents img{
+    width: 40px;
+}
+
+.mini-footer-content{
+    margin-top: 15px;
+}
+.mini-footer-content h1{
+    font-size: 25px;
+    margin-bottom: 3px;
+}
+.hamburger{
+    width: 20px;
+}
+.hamburger::before,
+.hamburger::after{
+    width: 20px;
+}
+.mini-footer-content h2{
+    font-size: 18px;
+}
+.footer-links a{
+    font-size: 9px;
+}
+.footer-links{
+    padding-bottom: 20px;
+}
+.footer-last h2{
+    font-size: 9px;
+}
+.footer-icons a{
+    font-size: 20px;
+    margin-right: 2px;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+}
